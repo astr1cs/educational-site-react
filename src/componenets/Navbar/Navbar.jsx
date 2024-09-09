@@ -6,11 +6,12 @@ import menu_icon from "../../assets/menu-icon.png"
 const Navbar =()=>{
 
 const [mobileMenu,setMobileMenu] = useState(false);
+const [sticky,setSticky]= useState(false);
+
 const toggleMenu =()=>{
     mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
 }
 
-const [sticky,setSticky]= useState(false);
 
 useEffect(()=>{
     window.addEventListener("scroll",()=>{

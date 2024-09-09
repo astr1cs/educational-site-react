@@ -6,10 +6,10 @@ import play_icon from "../../assets/play-icon.png";
 const About =()=>{
     return (
         <div className="about">
+
             <div className="about-left">
         <img src={aboutImg} alt="" className="about-img"/>
         <img src={play_icon} alt=""  className="play-icon"/>
-
             </div>
 
             <div className="about-right">
@@ -17,7 +17,6 @@ const About =()=>{
         <h2>Nurturing Tomorrow's Leaders Today</h2>
         <p>Embark on a transformative educational journey with our curriculum is 
             designed to empower students with the knowledge, skills, and experiences needed to excel in the dynamic field of education.
-
         </p>
         <p>With a focus on innovation, hands-on learning, and personalized mentorship
 
@@ -27,6 +26,7 @@ const About =()=>{
             offers the perfect pathway to achieve your goals and unlock your full potential in shaping the future of education.
         </p>
             </div>
+            
         </div>
     )
 }
