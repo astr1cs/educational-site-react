@@ -31,3 +31,15 @@ A modern and responsive educational website built using **React** and **vanilla 
 ```bash
 git clone https://github.com/astr1cs/educational-site-react.git
 cd educational-site-react
+
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Run locally
+bash
+Copy
+Edit
+npm run dev
+Then open http://localhost:5173 in your browser.
